@@ -47,11 +47,11 @@ function() {
 
 
   if (somma1 > somma2) {
-    document.getElementById('vincitore').innerHTML ="HA VINTO IL GIOCATORE 1";
+    document.getElementById('vincitore').innerHTML ="IL CULO UMANO SOVRASTA QUELLO DIGITALE";
   } else if (somma1 < somma2) {
-    document.getElementById('vincitore').innerHTML ="HA VINTO IL GIOCATORE 2";
+    document.getElementById('vincitore').innerHTML ="HAI PERSO, SKYNET ATTIVO";
   } else if (somma1 == somma2) {
-    document.getElementById('vincitore').innerHTML ="HANNO PAREGGIATO";
+    document.getElementById('vincitore').innerHTML ="QUESTA SFIDA RICHIEDE UN VINCITORE, RIGIOCA!!!";
   }
 
 }
