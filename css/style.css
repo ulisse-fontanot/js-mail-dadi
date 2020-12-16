@@ -8,6 +8,7 @@ body{
   background-color: green;
   color: white;
   text-align: center;
+  padding-top: 100px;
 }
 
 .container{
@@ -21,7 +22,7 @@ body{
   width: 100px;
   height: 100px;
   background-color: white;
-  border: 3px solid black;
+  border: 3px solid red;
   text-align: center;
   line-height: 100px;
   color: black;
@@ -30,7 +31,7 @@ body{
 
 .tu, .avversario{
   background-color: lightgreen;
-  border: 5px solid black;
+  border: 5px solid red;
   border-radius: 20px;
   width: 50%;
   padding: 100px 0;
@@ -57,7 +58,6 @@ span{
 
 a{
   text-decoration: none;
-  margin-top: 100px;
   padding: 20px;
   background-color: red;
   border: 5px solid white;

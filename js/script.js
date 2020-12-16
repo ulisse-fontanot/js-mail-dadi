@@ -38,11 +38,11 @@ function() {
 
 
   var somma1 = risultato1 + risultato2 + risultato3;
-  document.getElementById('punteggio-tu').innerHTML += somma1;
+  document.getElementById('punteggio-tu').innerHTML = "IL RISULTATO E': " + somma1;
   console.log(somma1);
 
   var somma2 = risultato4 + risultato5 + risultato6;
-  document.getElementById('punteggio-avv').innerHTML += somma2;
+  document.getElementById('punteggio-avv').innerHTML = "IL RISULTATO E': " + somma2;
   console.log(somma2);
 
 
