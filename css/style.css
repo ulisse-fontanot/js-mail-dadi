@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.dado{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 3px solid black;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+  font-size: 50px;
+}
+
+.tu, .avversario{
+  background-color: lightgreen;
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 50%;
+  padding: 100px 0;
+  margin: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+h2{
+  position: absolute;
+  top: 50px;
+  color: black;
+}
+
+span{
+  position: absolute;
+  bottom: 50px;
+  color: black;
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: red;
+  border: 5px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.uno{
+  background-image: url(../img/dado-1.jpg);
+  background-size: cover;
+}
+
+.due{
+  background-image: url(../img/dado-1.jpg);
+  background-size: cover;
+}
+
+.tre{
+  background-image: url(../img/dado-1.jpg);
+  background-size: cover;
+}
+
+.quattro{
+  background-image: url(../img/dado-1.jpg);
+  background-size: cover;
+}
+
+.cinque{
+  background-image: url(../img/dado-1.jpg);
+  background-size: cover;
+}
+
+.sei{
+  background-image: url(../img/dado-1.jpg);
+  background-size: cover;
+}
